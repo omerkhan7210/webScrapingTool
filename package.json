@@ -1,0 +1,21 @@
+{
+  "name": "fba",
+  "version": "1.0.0",
+  "description": "scraping",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node scrape.js"
+  },
+  "keywords": [
+    "scrape"
+  ],
+  "author": "umer",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "exceljs": "^4.4.0",
+    "nodemon": "^3.1.0",
+    "puppeteer": "^22.7.1",
+    "xlsx": "^0.18.5"
+  }
+}
